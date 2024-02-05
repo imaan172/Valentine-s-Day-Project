@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+
+button{
+    width: 75px;
+    height: 55px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #a8f0a8;
+}
+.button1:hover {
+    border-color: rgb(81, 225, 81);
+}
+
+.button2 {
+    background-color: rgb(246, 165, 165);
+}
+.button2:hover {
+    border-color: rgb(210, 95, 95);
+}
+
+.yes-button-content {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
