@@ -45,6 +45,11 @@ button{
   align-items: center;
 }
 
-a {
-    text-decoration: none;
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+  
